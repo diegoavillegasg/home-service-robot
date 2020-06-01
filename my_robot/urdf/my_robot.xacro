@@ -14,7 +14,7 @@
     <pose>0 0 0.1 0 0 0</pose>
 
     <inertial>
-      <mass value="1.0"/>
+      <mass value="10.0"/>
       <origin xyz="0.0 0 0" rpy=" 0 0 0"/>
       <inertia
           ixx="0.1" ixy="0" ixz="0"
@@ -72,7 +72,7 @@
   <link name='right_wheel'>
 
     <inertial>
-      <mass value="1.0"/>
+      <mass value="5.0"/>
       <origin xyz="0 0 0" rpy=" 0 1.5707 1.5707"/>
       <inertia
           ixx="0.1" ixy="0" ixz="0"
@@ -100,7 +100,7 @@
   <link name='left_wheel'>
 
     <inertial>
-      <mass value="1.0"/>
+      <mass value="5.0"/>
       <origin xyz="0 0 0" rpy=" 0 1.5707 1.5707"/>
       <inertia
           ixx="0.1" ixy="0" ixz="0"
